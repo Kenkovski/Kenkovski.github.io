@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrinceofAsia Uploader - TikTok draft uploader</title>
+<meta name="description" content="PrinceofAsia - gaming creator (SMITE 2, Project Zomboid, DayZ). Videos, streams and the PrinceofAsia Uploader app.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+ <a class="brand" href="index.html"><img src="icon.jpg" alt="PrinceofAsia logo">PrinceofAsia</a>
+ <nav><a href="index.html">Home</a><a href="videos.html">Videos</a><a href="about.html">About</a><a href="uploader.html" class="on">Uploader app</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<main>
+
+<h1>PrinceofAsia Uploader</h1>
+<p>PrinceofAsia Uploader is a personal desktop app (Windows) used by the creator PrinceofAsia to send the creator's own edited gaming videos from the creator's PC
+to the creator's own TikTok account as drafts. It is not offered to other users.</p>
+<h2>Features</h2>
+<div class="grid">
+ <div class="card"><h3>Log in with TikTok</h3><p>One-time sign-in with TikTok Login Kit (OAuth with PKCE). The app asks only for the permissions it needs.</p></div>
+ <div class="card"><h3>Upload as draft</h3><p>Sends a finished vertical MP4 to the owner's TikTok inbox using the Content Posting API (Upload to TikTok).</p></div>
+ <div class="card"><h3>Owner stays in control</h3><p>Nothing is posted automatically. The owner opens TikTok, adds the caption and decides whether to post.</p></div>
+</div>
+<h2>How it works</h2>
+<ol>
+ <li>The account owner signs in with TikTok once and authorizes the app.</li>
+ <li>The owner picks a finished video on the PC; the app uploads it to the owner's TikTok inbox as a draft.</li>
+ <li>The owner reviews the draft in the TikTok app and posts it, or deletes it.</li>
+</ol>
+<h2>Permissions used</h2>
+<ul>
+ <li><b>user.info.basic</b> - to show which TikTok account is connected.</li>
+ <li><b>video.upload</b> - to upload the owner's videos as drafts.</li>
+</ul>
+<h2>Data</h2>
+<p>Login tokens are kept only in a local file on the owner's computer and are used only with TikTok's official API. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+
+</main>
+<footer><div class="bar">
+ <span>&copy; 2026 PrinceofAsia</span>
+ <a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="contact.html">Contact</a>
+</div></footer>
+</body>
+</html>
